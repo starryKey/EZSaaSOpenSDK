@@ -1,6 +1,0 @@
-use_frameworks!
-target 'EZSaaSOpenSDK_Tests' do
-  pod 'EZSaaSOpenSDK', :path => '../'
-  
-  
-end
