@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "EZSaaSNaviController.h"
 #import "EZSaaSOpenSDKConfig.h"
+#import "EZSaaSProgressHUD-Header.h"
 
 //! Project version number for EZSaaSOpenSDK.
 FOUNDATION_EXPORT double EZSaaSOpenSDKVersionNumber;
