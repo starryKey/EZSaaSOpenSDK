@@ -30,6 +30,8 @@ Pod::Spec.new do |s|
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7' }
   #x86_64
+  
+  s.requires_arc = true
 
   #s.source_files = 'EZSaaSOpenSDK/Classes/**/*'
   s.source_files = "EZSaaSOpenSDK.framework/Headers/*.{h,m}"
