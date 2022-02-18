@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EZSaaSNaviController.h"
 #import "EZSaaSOpenSDKConfig.h"
 #import "EZSaaSProgressHUD-Header.h"
+
 
 //! Project version number for EZSaaSOpenSDK.
 FOUNDATION_EXPORT double EZSaaSOpenSDKVersionNumber;
@@ -23,6 +23,12 @@ FOUNDATION_EXPORT const unsigned char EZSaaSOpenSDKVersionString[];
 
 + (void)initSDKWithToken:(NSString *)token;
 
-+ (UIViewController *)deviceManageController;
++ (NSString *)sdkVersion;
+
++ (void)showFrom:(UIViewController *)controller
+      completion:(void (^)(void))completion
+         dismiss:(void (^)(void))dismiss;
+
++ (void)dismiss;
 
 @end

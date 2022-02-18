@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class EZSaaSLoginInfo;
+@class EZSaaSLoginInfo, EZSaaSNaviController;
 @interface EZSaaSOpenSDKConfig : NSObject
 
 @property(nonatomic, assign) BOOL hasNetworkReachability;
@@ -23,7 +23,11 @@
 
 @property(nonatomic, copy) NSString *token;
 
+@property (nonatomic, strong) EZSaaSNaviController *naviController;
+
 + (instancetype)sharedConfig;
+
+- (NSString *)loadUrl;
 
 -(void)initEZopenSDK;
 
