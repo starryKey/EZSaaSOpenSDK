@@ -9,7 +9,6 @@
 #import "EZSaaSOpenSDKConfig.h"
 #import "EZSaaSProgressHUD-Header.h"
 
-
 //! Project version number for EZSaaSOpenSDK.
 FOUNDATION_EXPORT double EZSaaSOpenSDKVersionNumber;
 
@@ -21,7 +20,10 @@ FOUNDATION_EXPORT const unsigned char EZSaaSOpenSDKVersionString[];
 
 @interface EZSaaSOpenSDK : NSObject
 
-+ (void)initSDKWithToken:(NSString *)token;
+//+ (void)initSDKWithToken:(NSString *)token;
++ (void)initSDKWithToken:(NSString *)token
+             accessToken:(NSString *)accessToken
+                  appKey:(NSString *)appKey;
 
 + (NSString *)sdkVersion;
 
