@@ -16,19 +16,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 工程配置:
 
 1.苹果开发者中心App ID的Capabilities开启:
-
-Access WiFi Information
-Hotspot
+```
+    Access WiFi Information
+    Hotspot
+```
 
 
 并在工程配置的Sign&Capability中添加两种能力配置:
-
-Access WiFi information
-Hotspot Configuration
+```
+    Access WiFi information
+    Hotspot Configuration
+```
 ￼￼￼
 
 2.在info.plist中配置 定位和相册相机使用权限
-
+```
  <key>NSCameraUsageDescription</key>
  <string>应用需要访问您的相机以扫描二维码信息，来添加监控等设备</string>
  <key>NSPhotoLibraryUsageDescription</key>
@@ -37,7 +39,9 @@ Hotspot Configuration
  <string>应用需要使用您的位置，用以获取您的wifi信息</string>
  <key>NSLocationWhenInUseUsageDescription</key>
  <string>应用需要使用您的位置，用以获取您的wifi信息</string>
+ ```
 添加设备时, 扫码会用到相机相册权限, 配网时可能需要用到定位权限.
+
 
 3.在工程Build Settings设置Bitcode为NO
 ￼
