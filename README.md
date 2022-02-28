@@ -70,7 +70,7 @@ In the source files where you need to use the library, import the umbrella heade
 * Objective-C
 
 1.初始化
-
+```
     EZSaaSConfigParam *configParam = [[EZSaaSConfigParam alloc] init];
     configParam.ezsaasToken = @"";//萤石商业智居的token
     configParam.ezopenAppKey = @"";//萤石开发平台的token
@@ -78,16 +78,16 @@ In the source files where you need to use the library, import the umbrella heade
     configParam.debugLogEnable = YES;
 //    configParam.ezsaasHttpDomain = @"https://saastestenterprise.ys7.com";
     [EZSaaSOpenSDK initSDKWithConfig:configParam];
-    
+```    
 
 2.打开设备管理页
-
+```
     [EZSaaSOpenSDK showFrom:self completion:^{
         
     } dismiss:^{
         
     }];
-
+```
 
 
 ## Author
