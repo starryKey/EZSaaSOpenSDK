@@ -15,11 +15,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 工程配置:
 
-1.苹果开发者中心App ID的Capabilities开启
+1.苹果开发者中心App ID的Capabilities开启:
+
 Access WiFi Information
 Hotspot
 
+
 并在工程配置的Sign&Capability中添加两种能力配置:
+
 Access WiFi information
 Hotspot Configuration
 ￼￼￼
