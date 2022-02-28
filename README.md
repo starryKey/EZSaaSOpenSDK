@@ -49,6 +49,15 @@ it, simply add the following line to your Podfile:
 pod 'EZSaaSOpenSDK'
 ```
 
+## Import headers in your source files
+
+In the source files where you need to use the library, import the umbrella header file:
+
+```objective-c
+#import <EZSaaSOpenSDK/EZSaaSOpenSDK.h>
+```
+
+
 ## How To Use
 
 * Objective-C
@@ -62,6 +71,7 @@ pod 'EZSaaSOpenSDK'
     configParam.debugLogEnable = YES;
 //    configParam.ezsaasHttpDomain = @"https://saastestenterprise.ys7.com";
     [EZSaaSOpenSDK initSDKWithConfig:configParam];
+    
 
 2.打开设备管理页
 
@@ -71,14 +81,6 @@ pod 'EZSaaSOpenSDK'
         
     }];
 
-
-### Import headers in your source files
-
-In the source files where you need to use the library, import the umbrella header file:
-
-```objective-c
-#import <EZSaaSOpenSDK/EZSaaSOpenSDK.h>
-```
 
 
 ## Author
