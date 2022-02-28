@@ -53,6 +53,7 @@ pod 'EZSaaSOpenSDK'
 * Objective-C
 
 1.初始化
+
     EZSaaSConfigParam *configParam = [[EZSaaSConfigParam alloc] init];
     configParam.ezsaasToken = @"";//萤石商业智居的token
     configParam.ezopenAppKey = @"";//萤石开发平台的token
@@ -62,6 +63,7 @@ pod 'EZSaaSOpenSDK'
     [EZSaaSOpenSDK initSDKWithConfig:configParam];
 
 2.打开设备管理页
+
     [EZSaaSOpenSDK showFrom:self completion:^{
         
     } dismiss:^{
