@@ -25,6 +25,7 @@ Hotspot Configuration
 ￼￼￼
 
 2.在info.plist中配置 定位和相册相机使用权限
+
  <key>NSCameraUsageDescription</key>
  <string>应用需要访问您的相机以扫描二维码信息，来添加监控等设备</string>
  <key>NSPhotoLibraryUsageDescription</key>
