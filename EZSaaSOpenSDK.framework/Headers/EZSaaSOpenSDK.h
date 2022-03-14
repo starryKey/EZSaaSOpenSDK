@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char EZSaaSOpenSDKVersionString[];
 
 @interface EZSaaSOpenSDK : NSObject
 
-/// SDK初始化
+/// SDK初始化( 用户登录授权, 环境设置等配置)
 /// @param configParam 基础参数
 + (void)initSDKWithConfig:(EZSaaSConfigParam *)configParam;
 
@@ -36,6 +36,15 @@ FOUNDATION_EXPORT const unsigned char EZSaaSOpenSDKVersionString[];
 
 /// 关闭
 + (void)dismiss;
+
+
+/// 退出登录
+/// @param comletion 退出完成的回调
++ (void)logout:(void (^)(NSError *error))comletion;
+
+
+///销毁SDK
++ (void)destroy;
 
 /// SDK版本号
 + (NSString *)sdkVersion;
