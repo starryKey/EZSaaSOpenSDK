@@ -15,10 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///萤石商业智居的token
 @property(nonatomic, copy, nonnull) NSString *ezsaasToken;
 
-///萤石开发平台的token
+///萤石开放平台的token
 @property(nonatomic, copy, nonnull) NSString *ezopenAccessToken;
 
-///萤石开发平台的appKey
+///萤石开放平台的appKey
 @property(nonatomic, copy, nonnull) NSString *ezopenAppKey;
 
 /// 默认NO关闭,  设置YES表示开启打印日志
