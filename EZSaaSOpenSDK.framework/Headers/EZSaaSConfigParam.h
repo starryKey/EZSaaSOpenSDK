@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///萤石商业智居的token
 @property(nonatomic, copy, nonnull) NSString *ezsaasToken;
 
+///萤石商业智居的appkey
+@property(nonatomic, copy, nonnull) NSString *ezsaasAppkey;
+
 ///萤石开放平台的token
 @property(nonatomic, copy, nonnull) NSString *ezopenAccessToken;
 
