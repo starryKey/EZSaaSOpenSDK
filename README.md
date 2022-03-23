@@ -73,6 +73,7 @@ In the source files where you need to use the library, import the umbrella heade
 ```
     EZSaaSConfigParam *configParam = [[EZSaaSConfigParam alloc] init];
     configParam.ezsaasToken = @"";//萤石商业智居的token
+    configParam.ezsaasAppkey = @"";//萤石商业智居的appkey
     configParam.ezopenAppKey = @"";//萤石开发平台的token
     configParam.ezopenAccessToken = @"";//萤石开发平台的appKey
     configParam.debugLogEnable = YES;
