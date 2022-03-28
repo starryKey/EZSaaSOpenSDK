@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EZSaaSOpenSDK'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'EZSaaSOpenSDK 设备融合管理的SDK'
 
 # This description is used to generate tags and improve search results.
