@@ -46,6 +46,7 @@ FOUNDATION_EXPORT const unsigned char EZSaaSOpenSDKVersionString[];
 ///销毁SDK
 + (void)destroy;
 
+
 /// SDK版本号
 + (NSString *)sdkVersion;
 

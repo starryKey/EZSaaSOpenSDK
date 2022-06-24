@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///萤石开放平台的appKey
 @property(nonatomic, copy, nonnull) NSString *ezopenAppKey;
 
-/// 默认NO关闭,  设置YES表示开启打印日志
+/// 默认NO关闭,  设置YES表示开启打印日志, 调试开关
 @property(nonatomic, assign) BOOL debugLogEnable;
 
 /// 可选，为空将使用默认地址(https://es.ys7.com)，用于设置HTTP请求域名(格式：https://xxx.com)

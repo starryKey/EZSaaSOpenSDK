@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EZSaaSOpenSDK'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'EZSaaSOpenSDK 设备融合管理的SDK'
 
 # This description is used to generate tags and improve search results.
@@ -38,13 +38,14 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking','~> 2.3'
   s.dependency 'EZOpenSDK'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'FLAnimatedImage'
   s.dependency 'PureLayout'
   s.dependency 'WebViewJavascriptBridge'
+  s.dependency 'FMDB'
   
   s.vendored_frameworks = 'EZSaaSOpenSDK.framework'
   
