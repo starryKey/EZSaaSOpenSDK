@@ -5,7 +5,7 @@
 //  Created by saas on 2022/2/24.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
                      pwd:(NSString *)pwd
            successHandle:(void (^)(void))successHandle
            failureHandle:(void(^)(NSError *error))failureHandle;
+
+
++ (void)changeEnv:(UIViewController *)controller;
 
 @end
 
